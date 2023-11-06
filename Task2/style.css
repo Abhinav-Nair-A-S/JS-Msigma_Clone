@@ -1,0 +1,33 @@
+h2 {
+  text-align: center;
+  color: #1b75bb;
+}
+p {
+  text-align: center;
+  color: gray;
+}
+
+.courses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.box {
+  width: 25%;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 30px;
+}
+
+.box p {
+  color: gray;
+}
+
+.box button {
+  border-radius: 25px;
+  padding: 10px 40px 10px 40px;
+  cursor: pointer;
+}
